@@ -1,0 +1,2 @@
+data = csv_reader('path_to_data.csv')
+cleaned_data = cleaner(data)
