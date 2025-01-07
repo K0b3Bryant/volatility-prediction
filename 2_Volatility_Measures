@@ -1,0 +1,1 @@
+volatility_data = meassures(data, high='high', low='low', close='close', open='open', window_size=3)
