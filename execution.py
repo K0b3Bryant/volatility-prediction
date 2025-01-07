@@ -54,7 +54,7 @@ for split_year in split_years:
     print(start_date, start_year, split_date, split_year, end_date, end_year)
 
     # run main
-    main()
+    main() # insert params ...
 
     # concat and export results
     main_msr_probs_merged = pd.concat(main_msr_probs, ignore_index=True)
