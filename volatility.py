@@ -1,4 +1,8 @@
+import numpy as np
+import pandas as pd
+
 def meassures(data: pd.DataFrame, high, low, close, open, window_size, frac_diff_order=0.5) -> pd.DataFrame:
+    """ Creates meassures of volatility """
     def rolling_window(array, window):
         shape = array.shape[:-1] + (array.shape[-1] - window + 1, window)
         strides = array.strides + (array.strides[-1],)
