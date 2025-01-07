@@ -53,9 +53,8 @@ for split_year in split_years:
     print('Testing on:')
     print(start_date, start_year, split_date, split_year, end_date, end_year)
 
-    # run main code
-    def main():
-        pass
+    # run main
+    main()
 
     # concat and export results
     main_msr_probs_merged = pd.concat(main_msr_probs, ignore_index=True)
