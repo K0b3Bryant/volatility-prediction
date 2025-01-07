@@ -1,2 +1,0 @@
-performance_df = manager.generate_performance_table(factors_list=['Mkt-RF', 'SMB', 'HML'])
-manager.plot_results("Performance Analysis")
