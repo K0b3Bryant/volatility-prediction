@@ -1,3 +1,7 @@
+import os
+import pandas as pd
+import numpy as np
+
 def csv_reader(file_path: str):
   """ Cleans CSV files """
     if os.path.exists(file_path):
