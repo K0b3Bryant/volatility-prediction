@@ -1,8 +1,5 @@
-
 import pandas as pd
 import numpy as np
-import statsmodels.api as sm
-import matplotlib.pyplot as plt
 
 class Strategy:
     def __init__(self, name: str, signals: pd.Series, risky_returns: pd.Series, risk_free_returns: pd.Series, max_position: float, transaction_costs: float=0.01):
