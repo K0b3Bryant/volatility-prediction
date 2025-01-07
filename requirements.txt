@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+ta
+tsfresh
+torch
+skorch
+optuna
+quantstats
+arch
