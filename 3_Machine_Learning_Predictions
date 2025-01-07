@@ -1,4 +1,0 @@
-manager = PredictionManager()
-manager.add_model('lightgbm', use_scaler=True, n_estimators=100, learning_rate=0.1)
-manager.train(X_train, y_train, train_index)
-manager.predict(X_test, test_index)
