@@ -69,3 +69,23 @@ for split_year in split_years:
 
     print('Testing on:')
     print(start_date, start_year, split_date, split_year, end_date, end_year)
+
+    # run main code
+
+
+    # concat
+    main_msr_probs_merged = pd.concat(main_msr_probs, ignore_index=True)
+    main_msr_metric_merged = pd.concat(main_msr_metric, ignore_index=True)
+    main_feature_importance_merged = pd.concat(main_feature_importance, ignore_index=True)
+    main_prediction_metrics_merged = pd.concat(main_prediction_metrics, ignore_index=True)
+    main_returns_merged = pd.concat(main_returns, ignore_index=True)
+    main_performance_merged = pd.concat(main_performance, ignore_index=True)
+
+    # export
+    main_msr_probs_merged.to_csv('main_msr_probs_merged.csv', index=False)
+    main_msr_metric_merged.to_csv('main_msr_metric_merged.csv', index=False)
+    main_feature_importance_merged.to_csv('main_feature_importance_merged.csv', index=False)
+    main_prediction_metrics_merged.to_csv('main_prediction_metrics_merged.csv', index=False)
+    main_returns_merged.to_csv('main_returns_merged.csv', index=False)
+    main_performance_merged.to_csv('main_performance_merged.csv', index=False)
+    print("DataFrames exported to CSV files successfully.")
