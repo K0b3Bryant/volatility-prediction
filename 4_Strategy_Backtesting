@@ -1,0 +1,2 @@
+strategy = Strategy(name="Example Strategy", signals=signals, risky_returns=returns, risk_free_returns=risk_free, max_position=1)
+strategy_manager.add_strategy(strategy, position_func=Threshold, lag=1, upper=0.99, lower=0.99)
