@@ -21,3 +21,6 @@ def csv_reader(file_path: str):
             return pd.read_csv(file_path)
     else:
         raise FileNotFoundError(f"File not found: {file_path}")
+
+def export_csv(dataframe: pd.DataFrame, filename: str):
+    dataframe.to_csv(f"{filename}.csv", index=False)
