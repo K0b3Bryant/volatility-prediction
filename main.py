@@ -1,5 +1,6 @@
 import os
-from preprocessing import csv_reader, cleaner, meassures
+from preprocessing import csv_reader, cleaner
+from volatility import meassures
 from models import PredictionManager
 from strategies import Strategy, StrategyManager
 from performance import generate_performance_report
