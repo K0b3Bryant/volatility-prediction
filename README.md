@@ -1,6 +1,6 @@
-# Financial Modeling and Strategy Backtesting Framework
+# Trading Indexes based on Machine Learning Predictions of Volatility: Strategy and Backtesting Framework
 
-Monica is a comprehensive Python-based framework for financial modeling, volatility prediction, and strategy backtesting. It combines advanced data preprocessing, machine learning models, and custom strategy evaluation tools to test and optimize trading strategies.
+The model is a comprehensive Python-based framework for financial modeling, volatility prediction, and strategy backtesting. It combines advanced data preprocessing, machine learning models, and custom strategy evaluation tools to test and optimize trading strategies.
 
 ## Features
 
