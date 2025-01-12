@@ -1,9 +1,8 @@
 import os
-from monica_2000.preprocessing import csv_reader, cleaner
-from monica_2000.volatility import meassures
-from monica_2000.models import PredictionManager
-from monica_2000.strategies import Strategy, StrategyManager
-from monica_2000.performance import generate_performance_report
+from preprocessing import csv_reader, cleaner, meassures
+from models import PredictionManager
+from strategies import Strategy, StrategyManager
+from performance import generate_performance_report
 
 def main():
     # Paths
