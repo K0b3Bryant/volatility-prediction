@@ -1,4 +1,4 @@
-# Monica: Financial Modeling and Strategy Backtesting Framework
+# Financial Modeling and Strategy Backtesting Framework
 
 Monica is a comprehensive Python-based framework for financial modeling, volatility prediction, and strategy backtesting. It combines advanced data preprocessing, machine learning models, and custom strategy evaluation tools to test and optimize trading strategies.
 
